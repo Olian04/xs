@@ -1,5 +1,5 @@
 # xs
-Like cd but with partial paths
+Like `cd` but fuzzy
 
 Exposes 2 things:
 * The `xs` command it self
