@@ -15,7 +15,8 @@ module.exports = function xs(query) {
     }
     const partialPaths = query.split(' ');
     const res = getScoredDirectoryTree(root, partialPaths.slice(0));
-    const sumRes = sumScoredDirectoryTree(res, partialPaths.length-1).sort();
+    const sumRes = sumScoredDirectoryTree(res, partialPaths.length-1).sort((a, b) => 
+        a.distance > b.distance);
     if (sumRes.length === 0) {
         return undefined;
     }
