@@ -1,6 +1,6 @@
 {
   "name": "@olian04/xs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Query directories using a set of partial paths and their levenshtein distances to acutal directories",
   "main": "app/index.js",
   "scripts": {},
